@@ -1,11 +1,11 @@
 // Interface unit of M
 module M;
 export namespace N {
-	class A 
+	class MyInterface 
 	{ 
 		public:
-		A();
-		~A();
+		MyInterface();
+		~MyInterface();
 		void Print();
 	};
 }
