@@ -5,8 +5,8 @@ export namespace N {
     class MyInterface 
     { 
         public:
-            MyInterface() { printf("MyInterface::MyInterface()\n"); };
-            ~MyInterface() { printf("MyInterface::~MyInterface()\n"); };
-            void Print() { printf("MyInterface::Print()\n"); };
+            MyInterface() { printf("mi::MyInterface::MyInterface()\n"); };
+            ~MyInterface() { printf("mi::MyInterface::~MyInterface()\n"); };
+            void Print() { printf("mi::MyInterface::Print()\n"); };
     };
 }
