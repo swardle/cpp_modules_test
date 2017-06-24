@@ -1,3 +1,5 @@
+import stdio;
+import M;
 #include <fstream>
 #include <iostream>
 #include <experimental/filesystem>

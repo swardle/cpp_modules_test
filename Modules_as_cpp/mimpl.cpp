@@ -1,9 +1,8 @@
-#include <stdio.h>
-
-// implement M
+import stdio;
 import M;
 
 namespace N {
+#ifndef __clang__
 	MyInterface::MyInterface()
 	{
 		printf("MyInterface::MyInterface()\n");	
@@ -18,5 +17,6 @@ namespace N {
 	{
 		printf("MyInterface::Print()\n");	
 	}
+#endif
 }
 
