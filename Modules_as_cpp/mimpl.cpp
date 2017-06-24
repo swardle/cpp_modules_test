@@ -5,17 +5,17 @@ namespace N {
 #ifndef __clang__
 	MyInterface::MyInterface()
 	{
-		printf("MyInterface::MyInterface()\n");	
+		printf("impl::MyInterface::MyInterface()\n");	
 	}
 
 	MyInterface::~MyInterface()
 	{
-		printf("MyInterface::~MyInterface()\n");	
+		printf("impl::MyInterface::~MyInterface()\n");	
 	}
 
 	void MyInterface::Print()
 	{
-		printf("MyInterface::Print()\n");	
+		printf("impl::MyInterface::Print()\n");	
 	}
 #endif
 }
