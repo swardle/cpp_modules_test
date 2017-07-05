@@ -1,5 +1,4 @@
 export module stdio;
-
-export {
-    #include <stdio.h>
+extern "C" {
+    int printf ( const char * format, ... );
 }
